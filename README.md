@@ -33,3 +33,10 @@ npm i -D semantic-release @semantic-release/{git,commit-analyzer,release-notes-g
 ```shell
 npx semantic-release --dry-run --no-ci
 ```
+
+## Setup semantic-release-cli
+```shell
+npm install -g semantic-release-cli
+
+semantic-release-cli setup --gh-token=<GITHUB_PERSONAL_TOKEN> --npm-token=<NPM_TOKEN> --npm-username=<NPM_USERNAME>
+```
